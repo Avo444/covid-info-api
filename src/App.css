@@ -1,0 +1,15 @@
+.App {
+  padding: 2px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  border: 1px solid;
+  border-radius: 8px;
+  width: 30%;
+}
+.item:not(:last-child) {
+  margin-right: 20px;
+}
